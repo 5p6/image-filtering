@@ -1,5 +1,5 @@
-function picure=equal(g) %%   Ö±·½Í¼¾ùºâ»¯ ÎŞÂÛÊäÈë½øÀ´µÄÍ¼Ïñ·ÖÁ¿gÊÇdoubleÀàĞÍµÄ
-x=size(g,1);y=size(g,2); %% »¹ÊÇuint8ÀàĞÍµÄ£¬Êä³öµÄpicure¶¼ÊÇuint8ÀàĞÍµÄ
+function picure=equal(g) %%   ç›´æ–¹å›¾å‡è¡¡åŒ– æ— è®ºè¾“å…¥è¿›æ¥çš„å›¾åƒåˆ†é‡gæ˜¯doubleç±»å‹çš„
+x=size(g,1);y=size(g,2); %% è¿˜æ˜¯uint8ç±»å‹çš„ï¼Œè¾“å‡ºçš„picureéƒ½æ˜¯uint8ç±»å‹çš„
 g=im2uint8(g);
 g_r=imhist(g)./(x*y);
 s=zeros(256,1);
