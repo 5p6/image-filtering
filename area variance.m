@@ -1,4 +1,4 @@
-function  a=flexable_var(g,ranks) %会计算矩阵g的ranks×ranks的邻域的方差
+function  a=flexable_var(g,ranks) %浼氳绠楃煩闃礸鐨剅anks脳ranks鐨勯偦鍩熺殑鏂瑰樊
 relax=ranks-1;
 [x,y]=size(g);
 g_s=im2double(g);
